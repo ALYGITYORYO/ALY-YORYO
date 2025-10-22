@@ -4,7 +4,7 @@ jQuery(document).ready(function(){
 		
 	/*** Svg ***/
 	
-	function kobe_svg(){
+	function aly_svg(){
 		
 	jQuery('img.svg').each(function(){
 		
@@ -31,7 +31,7 @@ jQuery(document).ready(function(){
 
 	});
 }
-kobe_svg();
+aly_svg();
 	
 	/*** Progress ***/
 	
@@ -48,7 +48,7 @@ kobe_svg();
 		});
 	}
 
-		jQuery('.kobe_progress').each(function() {
+		jQuery('.aly_progress').each(function() {
 			
 			var pWrap 			= jQuery(this);
 			pWrap.waypoint({handler: function(){tdProgress(pWrap);},offset:'90%'});	
@@ -56,7 +56,7 @@ kobe_svg();
 	
 	/*** Images ***/
 	
-	function kobe_images(){
+	function aly_images(){
 		
 	var data			= jQuery('*[data-img-url]');
 	
@@ -66,36 +66,36 @@ kobe_svg();
 		element.css({backgroundImage: 'url('+url+')'});
 	});
 }
-kobe_images();
+aly_images();
 	
 	/*** Hero Height ***/
 	
-function kobe_hero_height(){
+function aly_hero_height(){
 
 	var WH		= jQuery(window).height();
-	var hero	= jQuery('.kobe_hero_wrap');
+	var hero	= jQuery('.aly_hero_wrap');
 
 	hero.css({height:WH});
 }
-kobe_hero_height();	
+aly_hero_height();	
 	
 	/*** About Top ***/
 	
-	function kobe_about_top(){
+	function aly_about_top(){
 		
 	var WH		= jQuery(window).height();
 	var about	= jQuery('#about');
 		
 	about.css({marginTop:WH});
 }
-kobe_about_top();	
+aly_about_top();	
 	
 	/*** Menu Backgound ***/
 	
-	function kobe_menu_bg(){
+	function aly_menu_bg(){
 	jQuery(window).on('scroll',function(){
 		var WinOffset		= jQuery(window).scrollTop();
-		var topBar			= jQuery('.kobe_topbar');
+		var topBar			= jQuery('.aly_topbar');
 		if(WinOffset >= 500){
 			topBar.addClass('animate');
 		}else{
@@ -103,16 +103,16 @@ kobe_about_top();
 		}
 	});
 }
-kobe_menu_bg();
+aly_menu_bg();
 	
 	/*** Mobile Menu ***/
 	
-	function kobe_mobile_menu(){
+	function aly_mobile_menu(){
 		
-	var trigger			= jQuery('.kobe_topbar .trigger');
-	var triggerMenu		= jQuery('.kobe_topbar .trigger .menu');
-	var triggerClose	= jQuery('.kobe_topbar .trigger .close');
-	var dropdown		= jQuery('.kobe_topbar .dropdown');
+	var trigger			= jQuery('.aly_topbar .trigger');
+	var triggerMenu		= jQuery('.aly_topbar .trigger .menu');
+	var triggerClose	= jQuery('.aly_topbar .trigger .close');
+	var dropdown		= jQuery('.aly_topbar .dropdown');
 	
 	trigger.on('click',function(){
 		var element	= jQuery(this);
@@ -130,13 +130,13 @@ kobe_menu_bg();
 		return false;
 	});
 }
-kobe_mobile_menu();	
+aly_mobile_menu();	
 	
 	/*** Anchor ***/
 	
-	function kobe_anchor(){
+	function aly_anchor(){
 	
-	jQuery('.kobe_topbar .menu ul li a,.kobe_topbar .dropdown .main ul li a').off().on('click',function(e){
+	jQuery('.aly_topbar .menu ul li a,.aly_topbar .dropdown .main ul li a').off().on('click',function(e){
 		e.stopPropagation();
 		var element = jQuery(this);
 		var url			= element.attr('href');
@@ -148,13 +148,13 @@ kobe_mobile_menu();
 		return false;
 	});
 }
-kobe_anchor();
+aly_anchor();
 	
 	/*** Appear ***/
 	
-	function kobe_appear(){
+	function aly_appear(){
 		
-	var div		= jQuery('.kobe_appear');
+	var div		= jQuery('.aly_appear');
 	
 	div.each(function(){
 		
@@ -170,9 +170,9 @@ kobe_anchor();
 	});
 	
 }
-kobe_appear();
+aly_appear();
 	
-	function kobe_popup(){
+	function aly_popup(){
 	
 		jQuery('.gallery_zoom').each(function() { // the containers for all your galleries
 			jQuery(this).magnificPopup({
@@ -187,11 +187,11 @@ kobe_appear();
 
 		});
 	}
-	kobe_popup();
+	aly_popup();
 	
 	/*** Ripple ***/
 	
-	function kobe_ripple(){
+	function aly_ripple(){
 		
 		jQuery('#ripple').ripples({
 				resolution: 500,
@@ -199,7 +199,7 @@ kobe_appear();
 				perturbance: 0.04
 			});
 	}
-	kobe_ripple();
+	aly_ripple();
 	
 	/*** Video ***/
 	
@@ -221,18 +221,18 @@ kobe_appear();
 	
 	/*** Hero Effect ***/
 	
-	function kobe_hero_effect(){
+	function aly_hero_effect(){
 		
 	jQuery(window).on('scroll',function(){
 		var currentScroll		= window.pageYOffset;
-		jQuery(".kobe_hero_wrap,.glitch").css({'transform': 'scale('+(100 - currentScroll/100)/99+')','opacity' : (1 - (currentScroll/20) / 15)});
+		jQuery(".aly_hero_wrap,.glitch").css({'transform': 'scale('+(100 - currentScroll/100)/99+')','opacity' : (1 - (currentScroll/20) / 15)});
 	});
 	
 }
 	
 	/*** Placeholder ***/
 	
-	function kobe_location(){
+	function aly_location(){
 		var button		= jQuery('.href_location');
 		button.on('click',function(){
 			var element		= jQuery(this);
@@ -243,12 +243,12 @@ kobe_appear();
 			return false;
 		});
 	}
-	kobe_location();
+	aly_location();
 	
 	
 	/*** Contact Form ***/
 	
-	function kobe_contact_form(){
+	function aly_contact_form(){
 		
 	jQuery(".contact_form #send_message").on('click', function(){
 		var inputName		= jQuery(".contact_form #name");
@@ -303,15 +303,15 @@ kobe_appear();
 		return false; 
 	});
 }
-	kobe_contact_form();
+	aly_contact_form();
 	
 	/*** Kenburn ***/
 	
-	function kobe_kenburn_slider(){
+	function aly_kenburn_slider(){
 	
 	
 			jQuery(function() {
-				jQuery('.kobe_hero_wrap .overlay_slider').vegas({
+				jQuery('.aly_hero_wrap .overlay_slider').vegas({
 				timer:false,	
 				autoplay:true,	
 				loop:true,	
@@ -327,13 +327,13 @@ kobe_appear();
 			});
 		});
 	}
-	kobe_kenburn_slider();
+	aly_kenburn_slider();
 	
 	/*** Preloader ***/
 	
-	function kobe_preloader(){
+	function aly_preloader(){
 		
-	var mainPreloader	 = $(".kobe_loader-wrapper .loader");
+	var mainPreloader	 = $(".aly_loader-wrapper .loader");
 	var WinWidth 		 = $(window).width();
     var WinHeight		 = $(window).height();
     var zero = 0;
@@ -361,20 +361,20 @@ kobe_appear();
     }
 		
     setTimeout(function() {
-        $(".kobe_loader-wrapper").fadeOut('fast');
+        $(".aly_loader-wrapper").fadeOut('fast');
         (mainPreloader).fadeOut('fast');
     }, 4500);
 }
 	jQuery(window).on('scroll',function(){
-		kobe_hero_effect();
+		aly_hero_effect();
 	});
 
 	jQuery(window).on('resize',function(){
-		kobe_hero_height();
+		aly_hero_height();
 	});
 
 	jQuery(window).load('body', function(){
-		setTimeout(function(){kobe_preloader();},1000);
-		setTimeout(function(){jQuery('.kobe_hero_wrap .hero_texts,.kobe_hero_wrap_video .hero_texts').addClass('animate');},6000);
+		setTimeout(function(){aly_preloader();},1000);
+		setTimeout(function(){jQuery('.aly_hero_wrap .hero_texts,.aly_hero_wrap_video .hero_texts').addClass('animate');},6000);
 	});
 });

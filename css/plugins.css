@@ -360,15 +360,15 @@ img.svg{
 ::placeholder { /* Most modern browsers support this now. */
    color: #e0e0e0;
 }
-.kobe_wrap_all,
-.kobe_section{
+.aly_wrap_all,
+.aly_section{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.kobe_wrap_all,
-.kobe_wrap_all *{
+.aly_wrap_all,
+.aly_wrap_all *{
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */

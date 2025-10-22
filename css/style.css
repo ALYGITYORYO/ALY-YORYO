@@ -35,25 +35,25 @@ body{
 	word-wrap: break-word;
 	font-weight: 400;
 	background-color: #efefef;
-	color: #e0e0e0;
+	color: #818181;
 }
-.kobe_loader-wrapper {
+.aly_loader-wrapper {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: #efefef;
+    background-color: #ffffff;
     z-index: 11111111;
 }
-.kobe_loader-wrapper .loader {
+.aly_loader-wrapper .loader {
     height: 1px;
-    background-color: #9a9b9e;
+    background-color: #34343436;
     z-index: 11111111;
 	position: absolute;
 }
 
 /*** 02. TopBar ***/
 
-.kobe_topbar{
+.aly_topbar{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -63,16 +63,16 @@ body{
 	left: 0px;
 	z-index: 10;
 }
-.kobe_topbar.animate .mainpart{background-color: #020312;}
-.kobe_topbar.animate{border-bottom: 1px solid rgba(255,255,255,.07);}
-.kobe_topbar .mainpart{
+.aly_topbar.animate .mainpart{background-color: #020312;}
+.aly_topbar.animate{border-bottom: 1px solid rgba(255,255,255,.07);}
+.aly_topbar .mainpart{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding: 25px 0px;
 }
-.kobe_topbar .inner{
+.aly_topbar .inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -81,17 +81,17 @@ body{
 	align-items: center;
 	justify-content: center;
 }
-.kobe_topbar .logo{width: auto;}
-.kobe_topbar .menu ul{
+.aly_topbar .logo{width: auto;}
+.aly_topbar .menu ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.kobe_topbar .menu ul li{
+.aly_topbar .menu ul li{
 	margin: 0px 25px 0px 0px;
 	float: left;
 }
-.kobe_topbar .menu ul li:last-child{margin-right: 0px;}
-.kobe_topbar .menu ul li a{
+.aly_topbar .menu ul li:last-child{margin-right: 0px;}
+.aly_topbar .menu ul li a{
 	text-decoration: none;
 	color: #fff;
 	font-family: "Saira";
@@ -103,8 +103,8 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_topbar .menu ul li a:hover{color: #ea3509;}
-.kobe_topbar .dropdown{
+.aly_topbar .menu ul li a:hover{color: #ea3509;}
+.aly_topbar .dropdown{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -112,23 +112,23 @@ body{
 	background-color: #07081f;
 	display: none;
 }
-.kobe_topbar .dropdown .main{
+.aly_topbar .dropdown .main{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding: 35px 0px;
 }
-.kobe_topbar .dropdown .main ul{
+.aly_topbar .dropdown .main ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.kobe_topbar .dropdown .main ul li{
+.aly_topbar .dropdown .main ul li{
 	margin: 0px;
 	width: 100%;
 	float: left;
 }
-.kobe_topbar .dropdown .main ul li a{
+.aly_topbar .dropdown .main ul li a{
 	text-decoration: none;
 	color: #fff;
 	font-weight: 500;
@@ -136,13 +136,13 @@ body{
 	display: inline-block;
 	padding-bottom: 8px;
 }
-.kobe_topbar .dropdown .main ul li:last-child a{padding-bottom: 0px;}
-.kobe_topbar .trigger{display: none;}
-.kobe_topbar .trigger .menu{display: block;}
-.kobe_topbar .trigger .menu.opened{display: none;}
-.kobe_topbar .trigger .close{display: none;}
-.kobe_topbar .trigger .close.opened{display: block;}
-.kobe_topbar .trigger a{
+.aly_topbar .dropdown .main ul li:last-child a{padding-bottom: 0px;}
+.aly_topbar .trigger{display: none;}
+.aly_topbar .trigger .menu{display: block;}
+.aly_topbar .trigger .menu.opened{display: none;}
+.aly_topbar .trigger .close{display: none;}
+.aly_topbar .trigger .close.opened{display: block;}
+.aly_topbar .trigger a{
 	text-decoration: none;
 	color: #fff;
 	font-family: "Saira";
@@ -151,7 +151,7 @@ body{
 
 /*** 03. Hero ***/
 
-.kobe_hero_wrap{
+.aly_hero_wrap{
 	width: 100%;
 	height: 100vh;
 	position: fixed;
@@ -162,7 +162,7 @@ body{
     opacity: 1;
 	margin-bottom: 100px;
 }
-.kobe_hero_wrap .overlay{
+.aly_hero_wrap .overlay{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -171,8 +171,8 @@ body{
 	background-color: rgba(2,3,18,.3);
 	z-index: 1;
 }
-.kobe_hero_wrap .container{height: 100%;}
-.kobe_hero_wrap .hero_texts{
+.aly_hero_wrap .container{height: 100%;}
+.aly_hero_wrap .hero_texts{
 	position: absolute;
 	z-index: 2;
 	top: 50%;
@@ -184,11 +184,11 @@ body{
 		-o-transition: 1.5s ease-in-out;
 			transition: 1.5s ease-in-out;
 }
-.kobe_hero_wrap .hero_texts.animate{
+.aly_hero_wrap .hero_texts.animate{
 	-webkit-clip-path: polygon(0% 0%, 0% 100%, 50% 100%, 50% 0, 50% 0, 50% 100%, 50% 100%, 50% 100%, 100% 100%, 100% 0%);
 		clip-path: polygon(0% 0%, 0% 100%, 50% 100%, 50% 0, 50% 0, 50% 100%, 50% 100%, 50% 100%, 100% 100%, 100% 0%);
 }
-.kobe_hero_wrap .hero_texts h3{
+.aly_hero_wrap .hero_texts h3{
 	color: #000000;
 	text-transform:uppercase;
 	font-size: 60px;
@@ -196,19 +196,19 @@ body{
 	margin-bottom: 2px;
 	position: relative;
 }
-.kobe_hero_wrap .hero_texts .subtitle{
+.aly_hero_wrap .hero_texts .subtitle{
 	color: #b3042d;
 	text-transform:uppercase;
 	font-size: 17px;
 	font-weight: 700;
 	font-family: "Saira";
 }
-.kobe_down{
+.aly_down{
 	position: absolute;
 	z-index: 7;
 	bottom: 60px;
 }
-.kobe_down .line_wrapper{
+.aly_down .line_wrapper{
 	position: absolute;
     width: 1px;
     height: 100%;
@@ -226,13 +226,13 @@ body{
     -o-transition: all .7s;
     transition: all .7s;
 }
-.kobe_down .line_wrapper{
+.aly_down .line_wrapper{
     width: 1px;
     height: 50px;
     background: none;
 	display: block;
 }
-.kobe_down .line_wrapper:before{
+.aly_down .line_wrapper:before{
 	content: "";
 	background-color: #fff;
 	width: 1px;
@@ -266,29 +266,29 @@ body{
 
 /*** 04. About ***/
 
-.kobe_about_wrap{
+.aly_about_wrap{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 92px;
 }
-.kobe_about_wrap .about_inner{
+.aly_about_wrap .about_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	display: flex;
 }
-.kobe_about_wrap .about_inner .leftpart{
+.aly_about_wrap .about_inner .leftpart{
 	width: 45%;
 	height: auto;
 	padding-right: 50px;
 }
-.kobe_about_wrap .about_inner .leftpart .image{position: relative;}
-.kobe_about_wrap .about_inner .leftpart .image{position: relative;}
-.kobe_about_wrap .about_inner .leftpart .image img{min-width: 100%;}
-.kobe_about_wrap .about_inner .leftpart .image .main{
+.aly_about_wrap .about_inner .leftpart .image{position: relative;}
+.aly_about_wrap .about_inner .leftpart .image{position: relative;}
+.aly_about_wrap .about_inner .leftpart .image img{min-width: 100%;}
+.aly_about_wrap .about_inner .leftpart .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -298,17 +298,17 @@ body{
 	background-size: cover;
 	background-position: center;
 }
-.kobe_about_wrap .about_inner .rightpart{
+.aly_about_wrap .about_inner .rightpart{
 	width: 55%;
 	height: auto;
 }
-.kobe_about_wrap .about_inner .rightpart .about_title{
+.aly_about_wrap .about_inner .rightpart .about_title{
 	width: 100%;
 	height: auto;
 	float: left;
 	margin-bottom: 30px;
 }
-.kobe_about_wrap .about_inner .rightpart .about_title .title{
+.aly_about_wrap .about_inner .rightpart .about_title .title{
 	color: #ea3509;
     text-transform: uppercase;
     font-size: 17px;
@@ -319,7 +319,7 @@ body{
 	display: inline-block;
 	font-family: "Saira";
 }
-.kobe_about_wrap .about_inner .rightpart .about_title .title:before{
+.aly_about_wrap .about_inner .rightpart .about_title .title:before{
     position: absolute;
 	content: "";
 	width: 15px;
@@ -329,7 +329,7 @@ body{
 	transform: translateY(-50%);
 	left: 0px;
 }
-.kobe_about_wrap .about_inner .rightpart .about_title .title:after{
+.aly_about_wrap .about_inner .rightpart .about_title .title:after{
     position: absolute;
 	content: "";
 	width: 15px;
@@ -339,52 +339,52 @@ body{
 	transform: translateY(-50%);
 	right: -23px;
 }
-.kobe_about_wrap .about_inner .rightpart .about_title h3{
+.aly_about_wrap .about_inner .rightpart .about_title h3{
     color: #000000;
     text-transform: uppercase;
     font-size: 35px;
     font-weight: 600;
     margin-bottom: 5px;
 }
-.kobe_about_wrap .about_inner .rightpart .about_title h3 span{color: #ea3509;}
-.kobe_about_wrap .about_inner .rightpart .text{
+.aly_about_wrap .about_inner .rightpart .about_title h3 span{color: #ea3509;}
+.aly_about_wrap .about_inner .rightpart .text{
     width: 100%;
 	height: auto;
 	float: left;
 	margin-bottom: 17px;
 }
-.kobe_about_wrap .about_inner .rightpart .text p{
+.aly_about_wrap .about_inner .rightpart .text p{
 	color: #000000;
 	margin-bottom: 17px;
 }
-.kobe_about_wrap .about_inner .rightpart .text p:last-child{
+.aly_about_wrap .about_inner .rightpart .text p:last-child{
 	margin-bottom: 0px;
 }
-.kobe_about_wrap .about_inner .rightpart .info_list{
+.aly_about_wrap .about_inner .rightpart .info_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 25px;
 }
-.kobe_about_wrap .about_inner .rightpart .info_list ul{
+.aly_about_wrap .about_inner .rightpart .info_list ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.kobe_about_wrap .about_inner .rightpart .info_list ul li{
+.aly_about_wrap .about_inner .rightpart .info_list ul li{
 	margin: 0px;
 	width: 50%;
 	float: left;
 }
-.kobe_about_wrap .about_inner .rightpart .info_list ul li .left{
+.aly_about_wrap .about_inner .rightpart .info_list ul li .left{
 	min-width: 90px;
 	display: inline-block;
-	color: #fff;
+	color: #ea3509;
 	font-weight: 500;
 }
-.kobe_about_wrap .about_inner .rightpart .info_list ul li .right a{
+.aly_about_wrap .about_inner .rightpart .info_list ul li .right a{
 	text-decoration: none;
-	color: #e0e0e0;
+	color: #818181;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -392,14 +392,14 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_about_wrap .about_inner .rightpart .info_list ul li .right a:hover{color: #fff;}
-.kobe_button{
+.aly_about_wrap .about_inner .rightpart .info_list ul li .right a:hover{color: #818181;}
+.aly_button{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.kobe_button a{
+.aly_button a{
 	text-decoration: none;
 	color: #fff;
 	display: inline-block;
@@ -411,25 +411,25 @@ body{
 	font-family: "Saira";
 	transition: all .3s ease;
 }
-.kobe_button a:hover{background-color: transparent;}
+.aly_button a:hover{background-color: transparent;}
 
 /*** 05. Services ***/
 
-.kobe_services_wrap{
+.aly_services_wrap{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 42px;
 }
-.kobe_title_holder{
+.aly_title_holder{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	text-align: left;
 }
-.kobe_title_holder .title{
+.aly_title_holder .title{
 	color: #ea3509;
     text-transform: uppercase;
     font-size: 17px;
@@ -440,7 +440,7 @@ body{
 	display: inline-block;
 	font-family: "Saira";
 }
-.kobe_title_holder .title:before{
+.aly_title_holder .title:before{
     position: absolute;
 	content: "";
 	width: 15px;
@@ -450,7 +450,7 @@ body{
 	transform: translateY(-50%);
 	left: 0px;
 }
-.kobe_title_holder .title:after{
+.aly_title_holder .title:after{
     position: absolute;
 	content: "";
 	width: 15px;
@@ -460,14 +460,14 @@ body{
 	transform: translateY(-50%);
 	right: -23px;
 }
-.kobe_title_holder h3{
+.aly_title_holder h3{
     color: #fff;
     text-transform: uppercase;
     font-size: 35px;
     font-weight: 600;
     margin-bottom: 5px;
 }
-.kobe_services_wrap .service_list{
+.aly_services_wrap .service_list{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -483,21 +483,21 @@ body{
 	     -o-transition: all .6s ease;
 	        transition: all .6s ease;
 }
-.kobe_services_wrap .service_list.kobe_appear.load{
+.aly_services_wrap .service_list.aly_appear.load{
 	top: 0px;
 	opacity: 1;
 }
-.kobe_services_wrap .service_list ul{
+.aly_services_wrap .service_list ul{
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 }
-.kobe_services_wrap .service_list ul li{
+.aly_services_wrap .service_list ul li{
 	margin: 0px 0px 50px 0px;
 	width: 33.3333%;
 	float: left;
 	padding-left: 50px;
 }
-.kobe_services_wrap .service_list .inner{
+.aly_services_wrap .service_list .inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -507,20 +507,20 @@ body{
 	padding: 49px 40px 43px 40px;
 	cursor: pointer;
 }
-.kobe_services_wrap .service_list .inner .svg{
+.aly_services_wrap .service_list .inner .svg{
 	color: #ea3509;
 	width: 40px;
 	height: 40px;
 	margin-bottom: 7px;
 }
-.kobe_services_wrap .service_list .inner .title{
+.aly_services_wrap .service_list .inner .title{
 	color: #fff;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 19px;
 }
-.kobe_services_wrap .service_list .inner:before{
+.aly_services_wrap .service_list .inner:before{
 	position: absolute;
 	content: "";
 	top: 0px;
@@ -536,7 +536,7 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_services_wrap .service_list .inner:hover:before{
+.aly_services_wrap .service_list .inner:hover:before{
 	bottom: -10px;
 	right: -10px;
 	left: 10px;
@@ -545,14 +545,14 @@ body{
 
 /*** 06. Portfolio ***/
 
-.kobe_portfolio{
+.aly_portfolio{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 42px;
 }
-.kobe_portfolio .portfolio_list{
+.aly_portfolio .portfolio_list{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -568,22 +568,22 @@ body{
 	     -o-transition: all .6s ease;
 	        transition: all .6s ease;
 }
-.kobe_portfolio .portfolio_list.kobe_appear.load{
+.aly_portfolio .portfolio_list.aly_appear.load{
 	top: 0px;
 	opacity: 1;
 }
-.kobe_portfolio .portfolio_list ul{
+.aly_portfolio .portfolio_list ul{
 	margin: 0px 0px 0px -40px;
 	list-style-type: none;
 }
-.kobe_portfolio .portfolio_list ul li{
+.aly_portfolio .portfolio_list ul li{
 	margin: 0px 0px 50px 0px;
 	list-style-type: none;
 	padding-left: 40px;
 	float: left;
 	width: 33.3333%;
 }
-.kobe_portfolio .portfolio_list ul li .inner{
+.aly_portfolio .portfolio_list ul li .inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -591,14 +591,14 @@ body{
 	position: relative;
 	padding-left: 56px;
 }
-.kobe_portfolio .portfolio_list ul li .inner .image_wrap{
+.aly_portfolio .portfolio_list ul li .inner .image_wrap{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.kobe_portfolio .portfolio_list ul li .inner .image_wrap:before{
+.aly_portfolio .portfolio_list ul li .inner .image_wrap:before{
 	position: absolute;
 	content: "";
 	top: 0px;
@@ -614,15 +614,15 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_portfolio .portfolio_list ul li .inner:hover .image_wrap:before{
+.aly_portfolio .portfolio_list ul li .inner:hover .image_wrap:before{
 	bottom: -10px;
 	right: -10px;
 	left: 10px;
 	top: 10px;
 }
-.kobe_portfolio .portfolio_list ul li .inner .image_wrap .image{position: relative;}
-.kobe_portfolio .portfolio_list ul li .inner .image_wrap .image img{min-width: 100%;}
-.kobe_portfolio .portfolio_list ul li .inner .image_wrap .image .main{
+.aly_portfolio .portfolio_list ul li .inner .image_wrap .image{position: relative;}
+.aly_portfolio .portfolio_list ul li .inner .image_wrap .image img{min-width: 100%;}
+.aly_portfolio .portfolio_list ul li .inner .image_wrap .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -632,7 +632,7 @@ body{
 	background-size: cover;
 	background-position: center;
 }
-.kobe_portfolio .portfolio_list ul li .inner .title{
+.aly_portfolio .portfolio_list ul li .inner .title{
 	position: absolute;
     -webkit-transform-origin: 0 100%;
     -ms-transform-origin: 0 100%;
@@ -644,14 +644,14 @@ body{
     -ms-transform: rotate(-90deg) translate(0, 100%);
      transform: rotate(-90deg) translate(0, 100%); 
 }
-.kobe_portfolio .portfolio_list ul li .inner .title h3{
+.aly_portfolio .portfolio_list ul li .inner .title h3{
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 1;
 }
-.kobe_portfolio .portfolio_list ul li .inner .title span{
+.aly_portfolio .portfolio_list ul li .inner .title span{
 	color: #ea3509;
 	text-transform: uppercase;
 	font-weight: 800;
@@ -659,7 +659,7 @@ body{
 	display: inline-block;
 	font-family: "Saira";
 }
-.kobe_portfolio .portfolio_list ul li .inner .link{
+.aly_portfolio .portfolio_list ul li .inner .link{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -670,13 +670,13 @@ body{
 
 /*** 07. Resume ***/
 
-.kobe_resume{
+.aly_resume{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.kobe_resume .resume_list{
+.aly_resume .resume_list{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -693,21 +693,21 @@ body{
 	     -o-transition: all .6s ease;
 	        transition: all .6s ease;
 }
-.kobe_resume .resume_list.kobe_appear.load{
+.aly_resume .resume_list.aly_appear.load{
 	top: 0px;
 	opacity: 1;
 }
-.kobe_resume .resume_list ul{
+.aly_resume .resume_list ul{
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 }
-.kobe_resume .resume_list ul li{
+.aly_resume .resume_list ul li{
 	margin: 0px 0px 50px 0px;
 	width: 33.3333%;
 	float: left;
 	padding-left: 50px;
 }
-.kobe_resume .resume_list .inner{
+.aly_resume .resume_list .inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -717,7 +717,7 @@ body{
 	padding: 40px;
 	cursor: pointer;
 }
-.kobe_resume .resume_list .inner .year{
+.aly_resume .resume_list .inner .year{
 	color: #ea3509;
     text-transform: uppercase;
     font-weight: 800;
@@ -725,21 +725,21 @@ body{
     display: inline-block;
 	margin-bottom: 12px;
 }
-.kobe_resume .resume_list .inner .title{
+.aly_resume .resume_list .inner .title{
 	color: #fff;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 18px;
 }
-.kobe_resume .resume_list .inner .link{
+.aly_resume .resume_list .inner .link{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
 }
-.kobe_resume .resume_list .inner:before{
+.aly_resume .resume_list .inner:before{
 	position: absolute;
 	content: "";
 	top: 0px;
@@ -755,7 +755,7 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_resume .resume_list .inner:hover:before{
+.aly_resume .resume_list .inner:hover:before{
 	bottom: -10px;
 	right: -10px;
 	left: 10px;
@@ -764,38 +764,38 @@ body{
 
 /*** 08. Skills ***/
 
-.kobe_skills_wrap{
+.aly_skills_wrap{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 72px;
 }
-.kobe_skills_wrap .skills_inner{
+.aly_skills_wrap .skills_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	display: flex;
 }
-.kobe_skills_wrap .skills_inner .left{
+.aly_skills_wrap .skills_inner .left{
 	width: 50%;
 	height: auto;
 	padding-right: 50px;
 }
-.kobe_skills_wrap .skills_inner .left h3{
+.aly_skills_wrap .skills_inner .left h3{
 	color: #fff;
     text-transform: uppercase;
     font-size: 35px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.kobe_skills_wrap .skills_inner .right{
+.aly_skills_wrap .skills_inner .right{
 	width: 50%;
 	height: auto;
 	padding-left: 50px;
 }
-.kobe_progress{
+.aly_progress{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -856,14 +856,14 @@ body{
 
 /*** 09. Team ***/
 
-.kobe_team{
+.aly_team{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 42px;
 }
-.kobe_team .team_list{
+.aly_team .team_list{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -879,21 +879,21 @@ body{
 	     -o-transition: all .6s ease;
 	        transition: all .6s ease;
 }
-.kobe_team .team_list.kobe_appear.load{
+.aly_team .team_list.aly_appear.load{
 	top: 0px;
 	opacity: 1;
 }
-.kobe_team .team_list ul{
+.aly_team .team_list ul{
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 }
-.kobe_team .team_list ul li{
+.aly_team .team_list ul li{
 	margin: 0px 0px 50px 0px;
 	width: 33.3333%;
 	float: left;
 	padding-left: 50px;
 }
-.kobe_team .team_list ul li .inner{
+.aly_team .team_list ul li .inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -901,12 +901,12 @@ body{
 	position: relative;
 	cursor: pointer;
 }
-.kobe_team .team_list ul li .inner .image{
+.aly_team .team_list ul li .inner .image{
 	position: relative;
 	width: 100%;
 	height: 100%;
 }
-.kobe_team .team_list ul li .inner:before{
+.aly_team .team_list ul li .inner:before{
 	position: absolute;
 	content: "";
 	top: 0px;
@@ -922,14 +922,14 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_team .team_list ul li .inner:hover:before{
+.aly_team .team_list ul li .inner:hover:before{
 	bottom: -10px;
 	right: -10px;
 	left: 10px;
 	top: 10px;
 }
-.kobe_team .team_list ul li .inner .image img{min-width: 100%;}
-.kobe_team .team_list ul li .inner .image .main{
+.aly_team .team_list ul li .inner .image img{min-width: 100%;}
+.aly_team .team_list ul li .inner .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -939,7 +939,7 @@ body{
 	background-position: center;
 	background-size: cover;
 }
-.kobe_team .team_list ul li .inner .texts{
+.aly_team .team_list ul li .inner .texts{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -949,14 +949,14 @@ body{
 	z-index: 2;
 	padding: 42px 40px 40px 40px
 }
-.kobe_team .team_list ul li .inner .texts h3{
+.aly_team .team_list ul li .inner .texts h3{
 	color: #fff;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 600;
 	margin-bottom: 8px;
 }
-.kobe_team .team_list ul li .inner .texts span{
+.aly_team .team_list ul li .inner .texts span{
 	color: #ea3509;
     text-transform: uppercase;
     font-weight: 800;
@@ -967,14 +967,14 @@ body{
 
 /*** 10. Pricing ***/
 
-.kobe_pricing{
+.aly_pricing{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 42px;
 }
-.kobe_pricing .pricing_list{
+.aly_pricing .pricing_list{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -990,21 +990,21 @@ body{
 	     -o-transition: all .6s ease;
 	        transition: all .6s ease;
 }
-.kobe_pricing .pricing_list.kobe_appear.load{
+.aly_pricing .pricing_list.aly_appear.load{
 	top: 0px;
 	opacity: 1;
 }
-.kobe_pricing .pricing_list > ul{
+.aly_pricing .pricing_list > ul{
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 }
-.kobe_pricing .pricing_list > ul > li{
+.aly_pricing .pricing_list > ul > li{
 	margin: 0px 0px 50px 0px;
 	float: left;
 	width: 33.3333%;
 	padding-left: 50px;
 }
-.kobe_pricing .pricing_list > ul > li .inner{
+.aly_pricing .pricing_list > ul > li .inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1014,7 +1014,7 @@ body{
 	background-color: #07081f;
 	cursor: pointer;
 }
-.kobe_pricing .pricing_list > ul > li .inner .in{
+.aly_pricing .pricing_list > ul > li .inner .in{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1023,7 +1023,7 @@ body{
 	overflow: hidden;
 	padding: 45px 20px 50px 20px;
 }
-.kobe_pricing .pricing_list > ul > li .inner:before{
+.aly_pricing .pricing_list > ul > li .inner:before{
 	position: absolute;
 	content: "";
 	top: 0px;
@@ -1039,23 +1039,23 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_pricing .pricing_list > ul > li .inner:hover:before{
+.aly_pricing .pricing_list > ul > li .inner:hover:before{
 	bottom: -10px;
 	right: -10px;
 	left: 10px;
 	top: 10px;
 }
-.kobe_pricing .pricing_list ul li .inner .icon{
+.aly_pricing .pricing_list ul li .inner .icon{
 	width: 100%;
 	float: left;
 	margin-bottom: 7px;
 }
-.kobe_pricing .pricing_list ul li .inner .svg{
+.aly_pricing .pricing_list ul li .inner .svg{
 	color: #ea3509;
 	width: 30px;
 	height: 40px;
 }
-.kobe_pricing .pricing_list ul li .inner .title{
+.aly_pricing .pricing_list ul li .inner .title{
 	color: #fff;
 	display: inline-block;
 	font-family: "Saira";
@@ -1064,21 +1064,21 @@ body{
 	line-height: 1;
 	padding: 5px 20px;
 }
-.kobe_pricing .pricing_list ul li .inner .price{
+.aly_pricing .pricing_list ul li .inner .price{
 	font-size: 30px;
 	font-weight: 600;
 	color: #fff;
 	font-family: "Saira";
 }
-.kobe_pricing .pricing_list ul li .inner .price span{font-size: 20px;}
-.kobe_pricing .pricing_list ul li .inner ul{
+.aly_pricing .pricing_list ul li .inner .price span{font-size: 20px;}
+.aly_pricing .pricing_list ul li .inner ul{
 	margin: 0px 0px 20px 0px;
 	list-style-type: none;
 }
-.kobe_pricing .pricing_list ul li .inner ul li{margin: 0px;}
-.kobe_pricing.pricing{padding-top: 25px;}
-.kobe_pricing.pricing a{padding: 3px 25px;}
-.kobe_pricing .pricing_list > ul > li .inner .shape{
+.aly_pricing .pricing_list ul li .inner ul li{margin: 0px;}
+.aly_pricing.pricing{padding-top: 25px;}
+.aly_pricing.pricing a{padding: 3px 25px;}
+.aly_pricing .pricing_list > ul > li .inner .shape{
 	position: absolute;
 	width: 200px;
 	height: 100px;
@@ -1087,7 +1087,7 @@ body{
 	left: -73px;
 	transform: rotate(-43deg);
 }
-.kobe_pricing .pricing_list > ul > li .inner .recommend{
+.aly_pricing .pricing_list > ul > li .inner .recommend{
 	position: absolute;
 	color: #fff;
 	top: 30px;
@@ -1102,14 +1102,14 @@ body{
 
 /*** 11. News ***/
 
-.kobe_news{
+.aly_news{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 42px;
 }
-.kobe_news .news_list{
+.aly_news .news_list{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1125,28 +1125,28 @@ body{
 	     -o-transition: all .6s ease;
 	        transition: all .6s ease;
 }
-.kobe_news .news_list.kobe_appear.load{
+.aly_news .news_list.aly_appear.load{
 	opacity: 1;
 	top: 0px;
 }
-.kobe_news .news_list ul{
+.aly_news .news_list ul{
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 }
-.kobe_news .news_list ul li{
+.aly_news .news_list ul li{
 	margin: 0px 0px 50px 0px;
 	width: 33.3333%;
 	float: left;
 	padding-left: 50px;
 }
-.kobe_news .news_list ul li .inner{
+.aly_news .news_list ul li .inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.kobe_news .news_list ul li .inner:before{
+.aly_news .news_list ul li .inner:before{
 	position: absolute;
 	content: "";
 	top: 0px;
@@ -1162,22 +1162,22 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_news .news_list ul li .inner:hover:before{
+.aly_news .news_list ul li .inner:hover:before{
 	bottom: -10px;
 	right: -10px;
 	left: 10px;
 	top: 10px;
 }
-.kobe_news .news_list ul li .inner .image{position: relative;}
-.kobe_news .news_list ul li .inner .image a{
+.aly_news .news_list ul li .inner .image{position: relative;}
+.aly_news .news_list ul li .inner .image a{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
 }
-.kobe_news .news_list ul li .inner .image img{min-width: 100%;}
-.kobe_news .news_list ul li .inner .image .main{
+.aly_news .news_list ul li .inner .image img{min-width: 100%;}
+.aly_news .news_list ul li .inner .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1187,7 +1187,7 @@ body{
 	background-size: cover;
 	background-position: center;
 }
-.kobe_news .news_list ul li .inner .texts{
+.aly_news .news_list ul li .inner .texts{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1195,7 +1195,7 @@ body{
 	background-color: #07081f;
 	padding: 40px 40px 50px 40px;
 }
-.kobe_news .news_list ul li .inner .texts .date a{
+.aly_news .news_list ul li .inner .texts .date a{
 	text-decoration: none;
 	color: #fff;
 	
@@ -1205,13 +1205,13 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_news .news_list ul li .inner .texts .def{margin-bottom: 28px;}
-.kobe_news .news_list ul li .inner .texts .date a:hover{color: #ea3509;}
-.kobe_news .news_list ul li .inner .texts .title h3{
+.aly_news .news_list ul li .inner .texts .def{margin-bottom: 28px;}
+.aly_news .news_list ul li .inner .texts .date a:hover{color: #ea3509;}
+.aly_news .news_list ul li .inner .texts .title h3{
 	line-height: 1;
 	margin-bottom: 21px;
 }
-.kobe_news .news_list ul li .inner .texts .title h3 a{
+.aly_news .news_list ul li .inner .texts .title h3 a{
 	color: #fff;
 	text-decoration: none;
     text-transform: uppercase;
@@ -1225,18 +1225,18 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_news .news_list ul li .inner .texts .title h3 a:hover{color: #ea3509;}
+.aly_news .news_list ul li .inner .texts .title h3 a:hover{color: #ea3509;}
 
 /*** 12. Contact ***/
 
-.kobe_contact{
+.aly_contact{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 100px;
 }
-.kobe_contact .contact_inner{
+.aly_contact .contact_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1244,28 +1244,28 @@ body{
 	padding-top: 75px;
 	display: flex;
 }
-.kobe_contact .contact_inner .left{
+.aly_contact .contact_inner .left{
 	width: 40%;
 	height: auto;
 }
-.kobe_contact .contact_inner .left ul{
+.aly_contact .contact_inner .left ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.kobe_contact .contact_inner .left ul li{
+.aly_contact .contact_inner .left ul li{
 	margin: 0px 0px 13px 0px;
 	width: 100%;
 	float: left;
 	list-style-type: none;
 }
-.kobe_contact .contact_inner .left ul li .inner{
+.aly_contact .contact_inner .left ul li .inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.kobe_contact .contact_inner .left ul li .inner .svg{
+.aly_contact .contact_inner .left ul li .inner .svg{
 	position: absolute;
 	left: 0px;
 	top: 4px;
@@ -1273,8 +1273,8 @@ body{
 	width: 20px;
 	height: 20px;
 }
-.kobe_contact .contact_inner .left ul li .inner span{padding-left: 35px;}
-.kobe_contact .contact_inner .left ul li .inner span a{
+.aly_contact .contact_inner .left ul li .inner span{padding-left: 35px;}
+.aly_contact .contact_inner .left ul li .inner span a{
 	text-decoration: none;
 	color: #e0e0e0;
 	
@@ -1284,31 +1284,31 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_contact .contact_inner .left ul li .inner span a:hover{color: #fff;}
-.kobe_contact .contact_inner .right{
+.aly_contact .contact_inner .left ul li .inner span a:hover{color: #fff;}
+.aly_contact .contact_inner .right{
 	width: 60%;
 	height: auto;
 	position: relative;
 	top: -10px;
 }
-.kobe_contact .contact_inner .right .first_row{
+.aly_contact .contact_inner .right .first_row{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 15px;
 }
-.kobe_contact .contact_inner .right .first_row ul{
+.aly_contact .contact_inner .right .first_row ul{
 	margin: 0px 0px 0px -20px;
 	list-style-type: none;
 }
-.kobe_contact .contact_inner .right .first_row ul li{
+.aly_contact .contact_inner .right .first_row ul li{
 	margin: 0px 0px 25px 0px;
 	width: 50%;
 	float: left;
 	padding-left: 20px;
 }
-.kobe_contact .contact_inner .right .first_row ul li input{
+.aly_contact .contact_inner .right .first_row ul li input{
 	background-color: transparent;
 	border: none;
 	border-bottom: 1px solid #e0e0e0;
@@ -1322,19 +1322,19 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_contact .contact_inner .right .first_row ul li input:focus{
+.aly_contact .contact_inner .right .first_row ul li input:focus{
 	outline: none;
 	background-color: transparent;
 	border-bottom-color: #fff;
 }
-.kobe_contact .contact_inner .right .second_row{
+.aly_contact .contact_inner .right .second_row{
 	width: 100%;
 	height: auto;
 	float: left;
 	clear: both;
 	margin-bottom: 20px;
 }
-.kobe_contact .contact_inner .right textarea{
+.aly_contact .contact_inner .right textarea{
 	border: none;
 	background-color: transparent;
 	border-bottom: 1px solid #e0e0e0;
@@ -1349,13 +1349,13 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_contact .contact_inner .right textarea:focus{
+.aly_contact .contact_inner .right textarea:focus{
 	outline: none;
 	background-color: transparent;
 	border-bottom-color: #fff;
 }
-.kobe_contact .contact_inner .right .first_row ul li input.warning{border-bottom-color: #F32B2F;}
-.kobe_contact .contact_inner .right textarea.warning{border-bottom-color: #F32B2F;}
+.aly_contact .contact_inner .right .first_row ul li input.warning{border-bottom-color: #F32B2F;}
+.aly_contact .contact_inner .right textarea.warning{border-bottom-color: #F32B2F;}
 .returnmessage{
 	position: absolute;
 	bottom: 20px;
@@ -1366,7 +1366,7 @@ body{
 
 /*** 13. Footer ***/
 
-.kobe_footer{
+.aly_footer{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1374,7 +1374,7 @@ body{
 	background-color: #07081f;
 	padding: 50px 0px;
 }
-.kobe_footer .footer_inner{
+.aly_footer .footer_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1383,8 +1383,8 @@ body{
 	align-items: center;
 	justify-content: space-between;
 }
-.kobe_footer .footer_inner .left p{font-family: "Saira";}
-.kobe_footer .footer_inner .left a{
+.aly_footer .footer_inner .left p{font-family: "Saira";}
+.aly_footer .footer_inner .left a{
 	text-decoration: none;
 	color: #fff;
 	
@@ -1394,16 +1394,16 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_footer .footer_inner .left a:hover{color: #ea3509;}
-.kobe_footer .footer_inner .right ul{
+.aly_footer .footer_inner .left a:hover{color: #ea3509;}
+.aly_footer .footer_inner .right ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.kobe_footer .footer_inner .right ul li{
+.aly_footer .footer_inner .right ul li{
 	margin: 0px 10px 0px 0;
 	float: left;
 }
-.kobe_footer .footer_inner .right ul li a{
+.aly_footer .footer_inner .right ul li a{
 	text-decoration: none;
 	color: #fff;
 	
@@ -1413,13 +1413,13 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.kobe_footer .footer_inner .right ul li a:hover{color: #ea3509;}
-.kobe_hero_wrap_video{
+.aly_footer .footer_inner .right ul li a:hover{color: #ea3509;}
+.aly_hero_wrap_video{
 	width: 100%;
 	height: 100vh;
 	position: relative;
 }
-.kobe_hero_wrap_video .overlay{
+.aly_hero_wrap_video .overlay{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1428,8 +1428,8 @@ body{
 	background-color: rgba(2,3,18,.8);
 	z-index: 1;
 }
-.kobe_hero_wrap_video .container{height: 100%;}
-.kobe_hero_wrap_video .hero_texts{
+.aly_hero_wrap_video .container{height: 100%;}
+.aly_hero_wrap_video .hero_texts{
 	position: absolute;
 	z-index: 2;
 	top: 50%;
@@ -1441,11 +1441,11 @@ body{
 		-o-transition: 1.5s ease-in-out;
 			transition: 1.5s ease-in-out;
 }
-.kobe_hero_wrap_video .hero_texts.animate{
+.aly_hero_wrap_video .hero_texts.animate{
 	-webkit-clip-path: polygon(0% 0%, 0% 100%, 50% 100%, 50% 0, 50% 0, 50% 100%, 50% 100%, 50% 100%, 100% 100%, 100% 0%);
 		clip-path: polygon(0% 0%, 0% 100%, 50% 100%, 50% 0, 50% 0, 50% 100%, 50% 100%, 50% 100%, 100% 100%, 100% 0%);
 }
-.kobe_hero_wrap_video .hero_texts h3{
+.aly_hero_wrap_video .hero_texts h3{
 	color: #fff;
 	text-transform:uppercase;
 	font-size: 60px;
@@ -1453,7 +1453,7 @@ body{
 	margin-bottom: 5px;
 	position: relative;
 }
-.kobe_hero_wrap_video .hero_texts .subtitle{
+.aly_hero_wrap_video .hero_texts .subtitle{
 	color: #e0e0e0;
 	text-transform:uppercase;
 	font-size: 17px;
@@ -1483,7 +1483,7 @@ body{
   	z-index: 2;
 }
 
-.kobe_hero_wrap .kenburn_wrap{
+.aly_hero_wrap .kenburn_wrap{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1491,7 +1491,7 @@ body{
 	right: 0px;
 }
 
-.kobe_hero_wrap .hero_texts.intro{
+.aly_hero_wrap .hero_texts.intro{
 	position: absolute;
 	z-index: 2;
 	top: 50%;
@@ -1499,14 +1499,14 @@ body{
 	transform: translate(-50%,-50%);
 	text-align: center;
 }
-.kobe_hero_wrap .hero_texts.intro h3{margin-bottom: 18px;}
-.kobe_hero_wrap .hero_texts.intro .name span{color: #ea3509;}
-.kobe_down.intro{
+.aly_hero_wrap .hero_texts.intro h3{margin-bottom: 18px;}
+.aly_hero_wrap .hero_texts.intro .name span{color: #ea3509;}
+.aly_down.intro{
 	left: 50%;
 	transform: translateX
 }
-.kobe_button.intro{padding-top: 40px;}
-.kobe_intro_inner{
+.aly_button.intro{padding-top: 40px;}
+.aly_intro_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1516,7 +1516,7 @@ body{
 	padding-left: 100px;
 	padding-right: 100px;
 }
-.kobe_intro_inner .title{
+.aly_intro_inner .title{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1524,14 +1524,14 @@ body{
 	text-align: center;
 	margin-bottom: 100px;
 }
-.kobe_intro_inner .title h3{
+.aly_intro_inner .title h3{
 	color: #fff;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 19px;
 }
-.kobe_intro_inner > ul{
+.aly_intro_inner > ul{
 	margin: 0px 0px 0px -60px;
 	list-style-type: none;
 	position: relative;
@@ -1544,17 +1544,17 @@ body{
 	     -o-transition: all .6s ease;
 	        transition: all .6s ease;
 }
-.kobe_intro_inner > ul.kobe_appear.load{
+.aly_intro_inner > ul.aly_appear.load{
 	top: 0px;
 	opacity: 1;
 }
-.kobe_intro_inner > ul > li{
+.aly_intro_inner > ul > li{
 	margin: 0px 0px 60px 0px;
 	width: 33.3333%;
 	float: left;
 	padding-left: 60px;
 }
-.kobe_intro_inner > ul > li > .inner{
+.aly_intro_inner > ul > li > .inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1562,9 +1562,9 @@ body{
 	position: relative;
 	box-shadow: 0px 0px 10px 1px rgba(255,255,255,.2);
 }
-.kobe_intro_inner> ul > li > .inner .image{position: relative;}
-.kobe_intro_inner > ul > li > .inner .image img{min-width: 100%;}
-.kobe_intro_inner > ul > li > .inner .image .main{
+.aly_intro_inner> ul > li > .inner .image{position: relative;}
+.aly_intro_inner > ul > li > .inner .image img{min-width: 100%;}
+.aly_intro_inner > ul > li > .inner .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1574,14 +1574,14 @@ body{
 	background-size: cover;
 	background-position: center;
 }
-.kobe_intro_inner > ul > li > .inner .name{
+.aly_intro_inner > ul > li > .inner .name{
 	width: 100%;
 	height: auto;
 	float: left;
 	text-align: center;
 	background-color: #07081f;
 }
-.kobe_intro_inner > ul > li > .inner .name a{
+.aly_intro_inner > ul > li > .inner .name a{
 	text-decoration: none;
 	color: #fff;
 	font-family: "saira";
@@ -1591,28 +1591,28 @@ body{
 	display: inline-block;
 	padding: 13px 0px;
 }
-.kobe_intro_inner > ul > li > .inner .link{
+.aly_intro_inner > ul > li > .inner .link{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
 }
-.kobe_intro_inner .features{
+.aly_intro_inner .features{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding-top: 63px;
 }
-.kobe_intro_inner .features .title{
+.aly_intro_inner .features .title{
 	color: #fff;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 123px;
 }
-.kobe_intro_inner .features ul{
+.aly_intro_inner .features ul{
 	margin: 0px 0px 0px -60px;
 	list-style-type: none;
 	position: relative;
@@ -1625,17 +1625,17 @@ body{
 	     -o-transition: all .6s ease;
 	        transition: all .6s ease;
 }
-.kobe_intro_inner .features ul.kobe_appear.load{
+.aly_intro_inner .features ul.aly_appear.load{
 	opacity: 1;
 	top: 0px;
 }
-.kobe_intro_inner .features ul li{
+.aly_intro_inner .features ul li{
 	margin: 0px 0px 60px 0px;
 	width: 33.3333%;
 	float: left;
 	padding-left: 60px;
 }
-.kobe_intro_inner .features ul li .inner{
+.aly_intro_inner .features ul li .inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1645,20 +1645,20 @@ body{
 	text-align: center;
 	padding: 50px 20px;
 }
-.kobe_intro_inner .features ul li .inner .svg{
+.aly_intro_inner .features ul li .inner .svg{
 	width: 45px;
 	height: 45px;
 	color: #ea3509;
 	margin-bottom: 20px;
 }
-.kobe_intro_inner .features ul li .inner .subtitle{
+.aly_intro_inner .features ul li .inner .subtitle{
     color: #fff;
     font-family: "saira";
     font-weight: 500;
     text-transform: uppercase;
     font-size: 15px;
 }
-.kobe_footer.intro{
+.aly_footer.intro{
 	padding-left: 100px;
 	padding-right: 100px;
 }
