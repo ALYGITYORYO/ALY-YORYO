@@ -9,7 +9,7 @@
 	.aly_about_wrap .about_inner .leftpart{display: none;}
 	.aly_about_wrap .about_inner .rightpart{width: 100%;}
 	.aly_services_wrap .service_list ul li{width: 50%;}
-	.aly_portfolio .portfolio_list ul li{width: 50%;}
+	.aly_galeria .galeria_list ul li{width: 50%;}
 	.aly_resume .resume_list ul li{width: 50%;}
 	.aly_skills_wrap .skills_inner{flex-direction: column;}
 	.aly_skills_wrap .skills_inner .left{padding-right: 0px;width: 100%;margin-bottom: 30px;}
@@ -30,8 +30,8 @@
 	.aly_hero_wrap .hero_texts h3{font-size: 50px;}
 	.aly_about_wrap .about_inner .rightpart .info_list ul li{width: 100%;}
 	.aly_services_wrap .service_list ul{margin-left: 0px;}
-	.aly_portfolio .portfolio_list ul{margin-left: 0px;}
-	.aly_portfolio .portfolio_list ul li{width: 100%;padding-left: 0px;}
+	.aly_galeria .galeria_list ul{margin-left: 0px;}
+	.aly_galeria .galeria_list ul li{width: 100%;padding-left: 0px;}
 	.aly_services_wrap .service_list ul li{width: 100%;padding-left: 0px;}
 	.aly_about_wrap .about_inner .rightpart .about_title h3{font-size: 30px;}
 	.aly_title_holder h3{font-size: 30px;}

@@ -9,7 +9,7 @@
 03. Hero
 04. About
 05. Services
-06. Portfolio
+06. galeria
 07. Resume
 08. Skills
 09. Team
@@ -461,7 +461,7 @@ body{
 	right: -23px;
 }
 .aly_title_holder h3{
-    color: #fff;
+    color: #000000;
     text-transform: uppercase;
     font-size: 35px;
     font-weight: 600;
@@ -543,16 +543,16 @@ body{
 	top: 10px;
 }
 
-/*** 06. Portfolio ***/
+/*** 06. galeria ***/
 
-.aly_portfolio{
+.aly_galeria{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 42px;
 }
-.aly_portfolio .portfolio_list{
+.aly_galeria .galeria_list{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -568,22 +568,22 @@ body{
 	     -o-transition: all .6s ease;
 	        transition: all .6s ease;
 }
-.aly_portfolio .portfolio_list.aly_appear.load{
+.aly_galeria .galeria_list.aly_appear.load{
 	top: 0px;
 	opacity: 1;
 }
-.aly_portfolio .portfolio_list ul{
+.aly_galeria .galeria_list ul{
 	margin: 0px 0px 0px -40px;
 	list-style-type: none;
 }
-.aly_portfolio .portfolio_list ul li{
+.aly_galeria .galeria_list ul li{
 	margin: 0px 0px 50px 0px;
 	list-style-type: none;
 	padding-left: 40px;
 	float: left;
 	width: 33.3333%;
 }
-.aly_portfolio .portfolio_list ul li .inner{
+.aly_galeria .galeria_list ul li .inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -591,14 +591,14 @@ body{
 	position: relative;
 	padding-left: 56px;
 }
-.aly_portfolio .portfolio_list ul li .inner .image_wrap{
+.aly_galeria .galeria_list ul li .inner .image_wrap{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.aly_portfolio .portfolio_list ul li .inner .image_wrap:before{
+.aly_galeria .galeria_list ul li .inner .image_wrap:before{
 	position: absolute;
 	content: "";
 	top: 0px;
@@ -614,15 +614,15 @@ body{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.aly_portfolio .portfolio_list ul li .inner:hover .image_wrap:before{
+.aly_galeria .galeria_list ul li .inner:hover .image_wrap:before{
 	bottom: -10px;
 	right: -10px;
 	left: 10px;
 	top: 10px;
 }
-.aly_portfolio .portfolio_list ul li .inner .image_wrap .image{position: relative;}
-.aly_portfolio .portfolio_list ul li .inner .image_wrap .image img{min-width: 100%;}
-.aly_portfolio .portfolio_list ul li .inner .image_wrap .image .main{
+.aly_galeria .galeria_list ul li .inner .image_wrap .image{position: relative;}
+.aly_galeria .galeria_list ul li .inner .image_wrap .image img{min-width: 100%;}
+.aly_galeria .galeria_list ul li .inner .image_wrap .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -632,7 +632,7 @@ body{
 	background-size: cover;
 	background-position: center;
 }
-.aly_portfolio .portfolio_list ul li .inner .title{
+.aly_galeria .galeria_list ul li .inner .title{
 	position: absolute;
     -webkit-transform-origin: 0 100%;
     -ms-transform-origin: 0 100%;
@@ -644,14 +644,14 @@ body{
     -ms-transform: rotate(-90deg) translate(0, 100%);
      transform: rotate(-90deg) translate(0, 100%); 
 }
-.aly_portfolio .portfolio_list ul li .inner .title h3{
-	color: #fff;
+.aly_galeria .galeria_list ul li .inner .title h3{
+	color: #000000;
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 1;
 }
-.aly_portfolio .portfolio_list ul li .inner .title span{
+.aly_galeria .galeria_list ul li .inner .title span{
 	color: #ea3509;
 	text-transform: uppercase;
 	font-weight: 800;
@@ -659,7 +659,7 @@ body{
 	display: inline-block;
 	font-family: "Saira";
 }
-.aly_portfolio .portfolio_list ul li .inner .link{
+.aly_galeria .galeria_list ul li .inner .link{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
