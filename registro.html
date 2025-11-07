@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ALY YORYO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Saira:300,400,500,600,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300i,400,400i,600,600i,700&display=swap" rel="stylesheet">
+	<!-- /Fonts -->
+	
+	<!-- Styles -->
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+	<!-- /Styles -->
+	
+</head>
+<body>
+	
+	<!-- Preloader -->
+	<div class="aly_loader-wrapper">
+		<div class="loader"></div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- Wrapper All -->
+	<div class="aly_wrap_all">
+		
+		<!-- Topbar -->
+		<div class="aly_topbar">
+			<div class="aly_topbar animate mainpart" style="background-color: black;">
+				<div class="container">
+					<div class="inner">					
+						<div class="menu">
+							<ul>
+								<li><a href="index.html#home">INICIO</a></li>
+								<li><a href="index.html#about">ACERCA DE MI</a></li>								
+								<li><a href="index.html#intereces">INTERECES</a></li>																
+								<li><a href="index.html#galeria">GALERIA</a></li>
+								<li><a href="index.html#contact">CONTACTO</a></li>
+								<li><a href="#contact">REGISTRO</a></li>
+							</ul>
+						</div>
+					
+					</div>
+				</div>
+			</div>			
+		</div>
+		<!-- /Topbar -->
+				
+		<!-- Contact -->
+		<div class="aly_section" id="contact" style="padding-top: 90px;">
+			<div class="aly_contact">
+				<div class="container">
+					<div class="aly_title_holder">
+						<span class="title">REGISTRO</span>
+						<h3>Unete a mi crew</h3>
+					</div>
+					<div class="contact_inner">
+						
+						<div class="right">
+							
+
+<form action="/" method="post" class="contact_form" id="registroForm" novalidate>
+    <div class="returnmessage" id="successMessage" data-success="¡Registro exitoso! Pronto nos pondremos en contacto contigo."></div>
+<div class="first_row">
+    <div class="form_content">
+<ul>
+										<li>
+        <label for="nombre">Nombre Completo *</label>
+        <input id="nombre" name="nombre" type="text" placeholder=""  />
+        <div class="error-message" id="nombreError"></div>
+</li>
+<li>
+        <label for="edad">Edad *</label>
+        <input id="edad" name="edad" type="number" placeholder=""  min="1" max="120" />
+        <div class="error-message" id="edadError"></div>
+</li>
+</div>
+<br>
+        <div class="field-group">
+            <label>Sexo *</label>
+            <div>
+                <input type="radio" id="sexo-masculino" name="sexo" value="Masculino" required />
+                <label for="sexo-masculino">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" id="sexo-femenino" name="sexo" value="Femenino" />
+                <label for="sexo-femenino">Femenino</label>
+            </div>
+            <div class="error-message" id="sexoError"></div>
+        </div>
+<br>
+        <div class="field-group">
+            <label>Intereses * (Selecciona al menos uno)</label>
+            <div>
+                <input type="checkbox" id="interes-musica" name="intereses" value="Musica" />
+                <label for="interes-musica">Música</label>
+            </div>
+            <div>
+                <input type="checkbox" id="interes-tecnologia" name="intereses" value="Tecnologia" />
+                <label for="interes-tecnologia">Tecnología</label>
+            </div>
+            <div>
+                <input type="checkbox" id="interes-deportes" name="intereses" value="Deportes" />
+                <label for="interes-deportes">Deportes</label>
+            </div>
+            <div>
+                <input type="checkbox" id="interes-educacion" name="intereses" value="Educacion" />
+                <label for="interes-educacion">Educación</label>
+            </div>
+            <div>
+                <input type="checkbox" id="interes-entretenimiento" name="intereses" value="Entretenimiento" />
+                <label for="interes-entretenimiento">Entretenimiento</label>
+            </div>
+            <div>
+                <input type="checkbox" id="interes-videojuegos" name="intereses" value="Videojuegos" />
+                <label for="interes-videojuegos">Videojuegos</label>
+            </div>
+            <div class="error-message" id="interesesError"></div>
+        </div>
+<br>
+ <div class="field-group">
+        <label for="estudios">Nivel de Estudios *</label>
+        <select id="estudios" name="estudios" >
+            <option value="">-- Selecciona una opción --</option>
+            <option value="Primaria">Primaria</option>
+            <option value="Secundaria">Secundaria</option>
+            <option value="Bachillerato">Bachillerato/Preparatoria</option>
+            <option value="Universidad">Universidad</option>
+            <option value="Posgrado">Posgrado</option>
+        </select>
+        <div class="error-message" id="estudiosError"></div>
+<br>
+         <div class="field-group">
+<div class="first_row">
+    <ul>
+        <li>
+        <label for="email">Correo Electrónico *</label>
+        <input id="email" name="email" type="email" placeholder=""  />
+        <div class="error-message" id="emailError"></div>
+</li>
+<li>
+        <label for="telefono">Teléfono *</label>
+        <input id="telefono" name="telefono" type="tel" placeholder="Ej: 5512345678"  maxlength="10" />
+        <div class="error-message" id="telefonoError"></div>
+        </li>
+
+    </ul>
+</div>
+<div class="first_row">
+    <ul>
+        <li style="width: 100%;">
+     <div class="field-group">
+        <label for="curp">CURP *</label>
+        <input id="curp" name="curp" type="text" />
+        <div class="error-message" id="curpError"></div>
+     </li>
+    </ul>
+    
+</div>
+
+<div class="first_row">
+    <ul>
+        <li>
+     
+        <label for="pass">Contraseña *</label>
+        <input id="pass" name="pass" type="text" />
+        <div class="error-message" id="passError"></div>
+     </li>
+
+       <li>
+     <div class="field-group">
+        <label for="repass">Repite tu contraseña*</label>
+        <input id="repass" name="repass" type="password" />
+        <div class="error-message" id="repassError"></div>
+     </li>
+
+    </ul>
+    
+</div>
+
+</div>
+
+
+
+    </div>
+
+    <div class="aly_button">
+        <input type="submit"></input>
+    </div>
+</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Contact -->
+		
+		<!-- Footer -->
+		<div class="aly_section">
+			<div class="aly_footer">
+				<div class="container">
+					<div class="footer_inner">
+						<div class="left">
+							<p>Copyright &copy; 2022. Template has been designed by <a href="https://www.templatemonster.com/authors/coddythemes">CoddyThemes</a></p>
+						</div>
+						<div class="right">
+							<ul>
+								<li><a href="#"><i class="xcon-facebook"></i></a></li>
+								<li><a href="#"><i class="xcon-twitter"></i></a></li>
+								<li><a href="#"><i class="xcon-linkedin"></i></a></li>
+								<li><a href="#"><i class="xcon-instagram"></i></a></li>
+								<li><a href="#"><i class="xcon-behance"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Footer -->
+	
+	</div>
+	<!-- /Wrapper All -->	
+
+<!-- Scripts -->
+<script src="js/validacion.js"></script>
+
+<script src="js/jquery.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/init.js"></script>
+<!-- /Scripts -->
+
+</body>
+</html>

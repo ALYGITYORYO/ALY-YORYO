@@ -399,7 +399,7 @@ body{
 	clear: both;
 	float: left;
 }
-.aly_button a{
+.aly_button input[type="submit"], .aly_button a{
 	text-decoration: none;
 	color: #fff;
 	display: inline-block;
@@ -1311,10 +1311,10 @@ body{
 .aly_contact .contact_inner .right .first_row ul li input{
 	background-color: transparent;
 	border: none;
-	border-bottom: 1px solid #e0e0e0;
+	border-bottom: 1px solid #bbbbbb;
 	width: 100%;
 	padding: 0px 20px 0px 0px !important;
-	color: #fff;
+	color: #000000;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -1325,7 +1325,7 @@ body{
 .aly_contact .contact_inner .right .first_row ul li input:focus{
 	outline: none;
 	background-color: transparent;
-	border-bottom-color: #fff;
+	border-bottom-color: #727070;
 }
 .aly_contact .contact_inner .right .second_row{
 	width: 100%;
@@ -1658,6 +1658,119 @@ body{
     text-transform: uppercase;
     font-size: 15px;
 }
+
+#estudios {
+    /* Basic style to remove default look and add the underline */
+    -webkit-appearance: none; /* Remove default styling for cross-browser consistency */
+    -moz-appearance: none;
+    appearance: none;
+    
+    background-color: transparent; /* Makes the background transparent */
+    border: none; /* Removes the default box border */
+    border-bottom: 1px solid #bbbbbb; /* Adds the light gray underline */
+    
+    width: 100%; /* Ensures it spans the full width of its container, like the other inputs */
+    padding: 0px 20px 5px 0px; /* Adjust padding to match the input fields */
+    color: #000000; /* Text color */
+    
+    /* Smooth transition for hover/focus effects */
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+/* Styling for the dropdown when it is focused (clicked/tabbed into) */
+#estudios:focus {
+    outline: none; /* Removes the default focus ring */
+    border-bottom-color: #777777; /* Changes the underline to white (matching your earlier CSS) */
+    background-color: transparent;
+}
+
+
+
+        .radio-group,
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .radio-item,
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .checkbox-group {
+            background: #f8f2e7;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .error {
+            color: #e74c3c;
+            font-size: .7em;
+            margin-top: 5px;
+            display: none;
+        }
+
+        .error.show {
+            display: block;
+        }
+
+        input.invalid,
+        select.invalid {
+            border-color: #e74c3c;
+        }
+
+        input.valid,
+        select.valid {
+            border-color: #27ae60;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #fbaf79 0%, #a2864b 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.5em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-top: 20px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(237, 229, 140, 0.3);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+        .success-message {
+            background: #27ae60;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            display: none;
+            margin-top: 20px;
+        }
+
+        .success-message.show {
+            display: block;
+        }
 .aly_footer.intro{
 	padding-left: 100px;
 	padding-right: 100px;
